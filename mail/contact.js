@@ -15,10 +15,8 @@ $(function () {
             $this.prop("disabled", true);
 
             $.ajax({
-                url: "https://formsubmit.co/danielcostadev@outlook.com",
-                type: "POST",
-                dataType: 'json',
-                accepts: 'application/json',            
+                url: "contact.php",
+                type: "POST",        
                 data: {
                     name: name,
                     email: email,
