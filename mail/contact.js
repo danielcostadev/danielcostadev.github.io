@@ -17,6 +17,8 @@ $(function () {
             $.ajax({
                 url: "https://formsubmit.co/danielcostadev@outlook.com",
                 type: "POST",
+                dataType: 'json',
+                accepts: 'application/json',            
                 data: {
                     name: name,
                     email: email,
