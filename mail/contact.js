@@ -15,13 +15,13 @@ $(function () {
             $this.prop("disabled", true);
 
             $.ajax({
-                url: "https://docs.google.com/forms/d/e/1FAIpQLSc_W8CdeJTu2NYstnI6aIq677qlUlMTak9Nwplhi-iMzviuNw/formResponse",
+                url: "https://formsubmit.co/danielcostadev@outlook.com",
                 type: "POST",
                 data: {
-                    "entry.517041826": name,
-                    "entry.1521358848": email,
-                    "entry.1313645791": subject,
-                    "entry.443600342": message
+                    name: name,
+                    email: email,
+                    subject: subject,
+                    message: message
                 },
                 cache: false,
                 success: function () {

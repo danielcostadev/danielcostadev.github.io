@@ -190,7 +190,29 @@
                         <div class="col-md-8">
                             <div class="contact-form">
                                 <div id="success"></div>
-                                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc_W8CdeJTu2NYstnI6aIq677qlUlMTak9Nwplhi-iMzviuNw/viewform?embedded=true" width="500" height="700" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>                        </div>
+                                <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                                    <div class="control-group">
+                                        <input type="text" class="form-control" id="name" placeholder="Seu nome" required="required" data-validation-required-message="Por favor digite seu nome" />
+                                        <p class="help-block"></p>
+                                    </div>
+                                    <div class="control-group">
+                                        <input type="email" class="form-control" id="email" placeholder="Seu E-mail" required="required" data-validation-required-message="Por favor digite seu e-mail" />
+                                        <p class="help-block"></p>
+                                    </div>
+                                    <div class="control-group">
+                                        <input type="text" class="form-control" id="subject" placeholder="Assunto" required="required" data-validation-required-message="Por favor digite o assunto" />
+                                        <p class="help-block"></p>
+                                    </div>
+                                    <div class="control-group">
+                                        <textarea class="form-control" id="message" placeholder="Mensagem" required="required" data-validation-required-message="Por favor digite sua mensagem"></textarea>
+                                        <p class="help-block"></p>
+                                    </div>
+                                    <div>
+                                        <button class="btn" type="submit" id="sendMessageButton">Enviar Mensagem</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
