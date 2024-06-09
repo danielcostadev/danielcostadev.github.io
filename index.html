@@ -1,80 +1,276 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daniel Costa Developer - Portfólio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f3f3f3;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-        h1 {
-            margin-top: 0;
-        }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 0 20px;
-        }
-        .project {
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-            margin-bottom: 20px;
-        }
-        .project h2 {
-            margin-top: 0;
-        }
-        .project p {
-            margin-bottom: 10px;
-        }
-        .project a {
-            color: #007bff;
-            text-decoration: none;
-        }
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-    </style>
-</head>
-<body>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>DanielCostaDev - FullStack Developer Portfolio</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="developer,portfolio,webdesign,webmaster,desenvolvedor,programador" name="keywords">
+        <meta content="Portfolio do desenvolvedor FullStack - Daniel Costa Dev" name="description">
 
-<header>
-    <h1>Daniel Costa</h1>
-    <p>Desenvolvedor FullStack</p>
-    <p>Tecnologias: HTML, CSS, WordPress, JAVA, Spring, MySQL</p>
-</header>
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
 
-<div class="container">
-    <div class="project">
-        <h2>Portal Sergipe Hoje</h2>
-        <p>Portal de notícias completo desenvolvido com a tecnologia WordPress.</p>
-        <p><a href="https://sergipehoje.com.br">Ver projeto</a></p>
-    </div>
+        <!-- Google Fontes -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 
-    <!-- Adicionar mais projetos conforme necessário -->
+        <!-- Bibliotecas CSS -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
-</div>
+        <!-- Folha de Estilo Principal -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
 
-<footer>
-    <p>&copy; 2024 Daniel Costa Developer. Todos os direitos reservados.</p>
-</footer>
+    <body data-spy="scroll" data-target=".navbar" data-offset="51">
+        <!-- Menu de Navegação -->
+        <div class="navbar navbar-expand-lg bg-light navbar-light">
+            <div class="container-fluid">
+                <a href="index.html" class="navbar-brand">DanielCostaDev</a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-</body>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto">
+                        <a href="#home" class="nav-item nav-link active">Inicio</a>
+                        <a href="#about" class="nav-item nav-link">Quem sou</a>
+                        <a href="#service" class="nav-item nav-link">O que faço</a>
+                        <a href="https://github.com/danielcostadev" target="_blank" class="nav-item nav-link">Github</a>
+                        <a href="https://www.linkedin.com/in/danielcostadev/" target="_blank" class="nav-item nav-link">Linkedin</a>
+                        <a href="https://wakatime.com/@danielcostadev" target="_blank" class="nav-item nav-link">WakaTime</a>
+                        <a href="#contact" class="nav-item nav-link">Contato</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Final da Navegação -->
+
+
+        <!-- Profissional Inicio -->
+        <div class="profissional" id="home">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="profissional-content">
+                            <div class="profissional-text">
+                                <p>Imaginando - Criando - Inovando</p>
+                                <h1>Especialista em...</h1>
+                                <h2></h2>
+                                <div class="typed-text">Desenvolvimento de Software, Analise de Sistemas, Soluções Inovadoras</div>
+                            </div>
+                            <div class="profissional-btn">
+                                <a class="btn" href="https://wa.me/5579999110213?text=Ol%C3%A1+Daniel%2C+vi+seu+portfolio+e+gostaria+de+contratar+os+seus+servi%C3%A7os.">Me Contrate</a>
+                                <a class="btn" href="#contact">Fale Comigo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 d-none d-md-block">
+                        <div class="profissional-image">
+                            <img src="img/profissional.png" alt="profissional Image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Profissional Final -->
+
+
+        <!-- About Start -->
+        <div class="about wow fadeInUp" data-wow-delay="0.1s" id="about">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="about-img">
+                            <img src="img/about3.jpg" alt="Image">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="about-content">
+                            <div class="section-header text-left">
+                                <p>Mais sobre mim</p>
+                                <h2>+12 Anos de Experiência</h2>
+                            </div>
+                            <div class="about-text">
+                                <p>
+                                    Me encantei com a tecnologia desde meus 10 anos, quando tive contato com um computador pela primeira vez. Aquela experiência inicial despertou uma curiosidade que só aumentaria com o passar dos anos. Aos 12 anos, comecei a me informar sobre o que essas máquinas brilhantes são capazes de nos proporcionar, mergulhando em artigos, vídeos e tutoriais que explicavam os diversos aspectos do mundo digital.
+
+                                </p>
+                    
+                            </div>
+                            <div class="skills">
+                                <div class="skill-name">
+                                    <p>Desenvolvimento Web</p><p>95%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="skill-name">
+                                    <p>Criação de Aplicativos</p><p>90%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="skill-name">
+                                    <p>Desenvolvimento Desktop</p><p>90%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+        
+        <!-- Service Start -->
+        <div class="service" id="service">
+            <div class="container">
+                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                    <p>O que eu posso fazer</p>
+                    <h2>Qualidade - Inovação - Profissionalismo</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.0s">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="fa fa-laptop-code"></i>
+                            </div>
+                            <div class="service-text">
+                                <h3>Desenvolvimento Web</h3>
+                                <p>
+                                    Uma área dinâmica da TI, focada na criação e manutenção de sites e aplicações web, 
+                                    um mix de habilidades em HTML, CSS, JavaScript, Java e frameworks como Angular, SpringBoot.
+                               </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="fa fa-laptop"></i>
+                            </div>
+                            <div class="service-text">
+                                <h3>Desenvolvimento Desktop</h3>
+                                <p>
+                                    Criação de aplicações para computadores, utilizando linguagens como C++, Java e Python, e frameworks como .NET, para criar softwares robustos e eficientes.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="fab fa-android"></i>
+                            </div>
+                            <div class="service-text">
+                                <h3>Desenvolvimento de Aplicativos</h3>
+                                <p>
+                                    Envolve a criação de software para dispositivos móveis, utilizando linguagens como Java, Swift, e Kotlin, e frameworks como Flutter, para criar apps eficientes e intuitivos para Android e iOS.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->    
+        
+        <!-- Contact Start -->
+        <div class="contact wow fadeInUp" data-wow-delay="0.1s" id="contact">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-4"></div>
+                        <div class="col-md-8">
+                            <div class="contact-form">
+                                <div id="success"></div>
+                                <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                                    <div class="control-group">
+                                        <input type="text" class="form-control" id="name" placeholder="Seu nome" required="required" data-validation-required-message="Por favor digite seu nome" />
+                                        <p class="help-block"></p>
+                                    </div>
+                                    <div class="control-group">
+                                        <input type="email" class="form-control" id="email" placeholder="Seu E-mail" required="required" data-validation-required-message="Por favor digite seu e-mail" />
+                                        <p class="help-block"></p>
+                                    </div>
+                                    <div class="control-group">
+                                        <input type="text" class="form-control" id="subject" placeholder="Assunto" required="required" data-validation-required-message="Por favor digite o assunto" />
+                                        <p class="help-block"></p>
+                                    </div>
+                                    <div class="control-group">
+                                        <textarea class="form-control" id="message" placeholder="Mensagem" required="required" data-validation-required-message="Por favor digite sua mensagem"></textarea>
+                                        <p class="help-block"></p>
+                                    </div>
+                                    <div>
+                                        <button class="btn" type="submit" id="sendMessageButton">Enviar Mensagem</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+
+
+        <!-- Footer Start -->
+        <div class="footer wow fadeIn" data-wow-delay="0.3s">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="footer-info">
+                        <h2>Daniel Costa - Desenvolvedor FullStack</h2>
+                        <h3></h3>
+                        <div class="footer-menu">
+                            <p>+55 79 9.9911-0213</p>
+                            <p>danielcostadev@outlook.com</p>
+                        </div>
+                        <div class="footer-social">
+                            <a href="https://github.com/danielcostadev"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/danielcostadev/"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container copyright">
+                    <p>&copy; <a href="#">DanielCostaDev</a> - Direitos Reservados</p>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+        
+        
+        <!-- Back to top button -->
+        <a href="#" class="btn back-to-top"><i class="fa fa-chevron-up"></i></a>
+        
+        
+        <!-- Pre Loader -->
+        <div id="loader" class="show">
+            <div class="loader"></div>
+        </div>
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/typed/typed.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        
+        <!-- Contact Javascript File -->
+        <script src="mail/jqBootstrapValidation.min.js"></script>
+        <script src="mail/contact.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
 </html>
