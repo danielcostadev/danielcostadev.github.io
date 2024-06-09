@@ -1,0 +1,11 @@
+{
+    "functions": {
+      "api/index.php": {
+        "runtime": "vercel-php@0.3.6"
+      }
+    },
+    "rewrites": [
+      { "source": "img/favicon.ico", "destination": "https://danielcostadev-github-io.vercel.app/img/favicon.ico" },
+      { "source": "/(.*)", "destination": "/mail/contact.php" }
+    ]
+  }
