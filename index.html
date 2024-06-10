@@ -23,6 +23,12 @@
 
         <!-- Folha de Estilo Principal -->
         <link href="css/style.css" rel="stylesheet">
+
+        <script>
+            (function() {
+                emailjs.init("78v3crfmj7-b4uKXB");
+            })();
+        </script>
     </head>
 
     <body data-spy="scroll" data-target=".navbar" data-offset="51">
@@ -181,12 +187,6 @@
             </div>
         </div>
         <!-- Service End -->    
-
-        <script>
-            (function() {
-                emailjs.init("service_l0wvz0a"); // Substitua "SEU_USER_ID" pelo seu User ID do EmailJS
-            })();
-        </script>
         
         <!-- Contact Start -->
         <div class="contact wow fadeInUp" data-wow-delay="0.1s" id="contact">
@@ -203,7 +203,6 @@
                                 <div id="success"></div>
                                 <form name="sentMessage" id="contactForm" novalidate="novalidate">
                                     <div class="control-group">
-                                        <input type="hidden" name="_captcha" value="false">
                                         <input type="text" class="form-control" id="name" placeholder="Seu nome" required="required" data-validation-required-message="Por favor digite seu nome" />
                                         <p class="help-block"></p>
                                     </div>
