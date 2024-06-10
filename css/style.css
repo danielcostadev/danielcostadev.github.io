@@ -456,6 +456,10 @@ a:focus {
     color:#fff;
 }
 
+.about h2 {
+    color:#fff;
+}
+
 .about .col-lg-6 {
     padding: 0;
 }
@@ -1286,6 +1290,10 @@ a:focus {
     width: 100%;
     margin: 45px 0;
     background: #000;
+}
+
+.contact h2 {
+    color:#fff;
 }
 
 .contact .container-fluid {
